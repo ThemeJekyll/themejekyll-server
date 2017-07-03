@@ -1,0 +1,27 @@
+{
+  "name": "themejekyll-star-server",
+  "version": "1.0.0",
+  "description": "Handles star ratings for ThemeJekyll",
+  "author": {
+    "name": "James King",
+    "email": "hello@chromaticaldesign.com",
+    "url": "https://themejekyll.github.io"
+  },
+  "homepage": "https://themejekyll.github.io",
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "request": "*",
+    "cors": "*",
+    "github-webhook-middleware": "*",
+    "underscore": "*"
+  },
+
+  "private": true,
+  "main": "server.js"
+}
